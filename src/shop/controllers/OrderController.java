@@ -27,7 +27,6 @@ public class OrderController {
         String[] productInfo = productData.split(" ");
         Product shopProduct = shop.findProduct(productInfo[0]);
         int orderQuantity = Integer.parseInt(productInfo[1]);
-        System.out.println("KOL: " + orderQuantity);
         if (shopProduct != null && checkIfEnough(shopProduct.getQuantity(), orderQuantity)) {
             Product p = makeProduct(shopProduct, orderQuantity);
             deductAvailableProducts(shopProduct, orderQuantity);

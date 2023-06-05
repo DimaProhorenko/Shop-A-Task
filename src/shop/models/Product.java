@@ -50,6 +50,10 @@ public class Product {
         this.quantity = newQuantity >= 0 ? newQuantity : 0;
     }
 
+    public void increaseQuantity(int quantity) {
+        this.quantity += quantity;
+    }
+
     public void setQuantity(int quantity) {
     }
 
