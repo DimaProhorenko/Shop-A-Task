@@ -1,13 +1,14 @@
-1
-Онлайн-магазин приймає замовлення через Інтернет.
+## General Info
+1. Package app - домашнее задание
+2. Package shop - мой вариант магазина
 
-Частину замовлень клієнти забирають самі, прийшовши до офісу
-магазину.
-Частина замовлень доставляється клієнтам, але
-з доплатою за доставку (фіксована ціна),
-яка входить у вартість замовлення.
+## Menu overview
+* Show available products - shows all products, that are currently available.
+* Make an order - lets you create your order, also deductes amount you specify from available product. If the specified amount exceeds available amount prints info about error.
+* Fill products - lets you increase the available amount of specified products.
+* q - lets you quit shop at any moment throughout the program
 
-Вартість замовлення розраховується
-залежно від категорії замовлення.
+## How to enter products
+**_productName productQuantity, productName productQuantity, ..._**
 
-Виправте проект.
+In order to make an order or fill products you need to specify the products in the way shown above
